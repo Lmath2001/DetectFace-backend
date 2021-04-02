@@ -24,7 +24,7 @@ The web application is built with Nodejs, Expressjs and PostgreSQL database to r
 ## API :
 1. Clarifai
 
-## Deplpoyment  
+## Deployment  
 1. Heroku
 
 ### View the whole web app at https://detect-multiple-faces.herokuapp.com/

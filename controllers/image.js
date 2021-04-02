@@ -1,7 +1,7 @@
 const Clarifai = require('clarifai');
 
 const app = new Clarifai.App({
- apiKey: 'd73d94b445a147b4b01d5e3b2ec0aece'
+ apiKey: process.env.API_KEY
 });
 
 const handleImageURL = (req,res)=>{ 

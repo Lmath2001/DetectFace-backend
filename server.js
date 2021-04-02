@@ -42,6 +42,6 @@ app.get('/profile/:id',(req,res)=>{profile.handleProfile(req,res,db)})
 app.put('/image',(req,res)=>{image.handleImage(req,res,db)})
 app.post('/imageUrl',(req,res)=>{image.handleImageURL(req,res)})
 
-app.listen(3000, ()=>{
-  console.log("We are running on localhost 3000");
+app.listen(process.env.PORT || 3000, ()=>{
+  console.log(`We are running on localhost ${process.env.PORT}`);
 })

@@ -21,6 +21,16 @@ The web application is built with Nodejs, Expressjs and PostgreSQL database to r
 2. Express.js
 3. PostgreSQL
 
+## NPM Packages:
+1. Create-React-App
+2. Tachyons
+3. particles.js
+4. Bcrypt
+5. Postgresql
+6. knex
+7. cors
+8. express
+
 ## API :
 1. Clarifai
 
